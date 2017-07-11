@@ -1,0 +1,318 @@
+$white: #fff
+$weight: 700
+$transform: uppercase
+$align: center
+@mixin h1-config
+	text-transform: $transform
+	color: $white
+	font-weight: $weight
+@mixin button-config
+	height: 50px
+	width: 155px
+	background-color: #16a085
+	text-transform: $transform
+	border: none
+	margin-top: 20px
+	transition: .5s
+	color: $white
+	&:hover
+		transform: scale(1.2)
+@mixin h4-config
+	color: #16a085
+	font-weight: $weight
+	text-transform: $transform
+	letter-spacing: 2px
+	word-spacing: 2px
+	max-width: 375px
+@mixin h4-m-config
+	color: #16a085
+	font-weight: $weight
+	text-transform: $transform
+	letter-spacing: initial
+	word-spacing: initial
+	max-width: initial
+@mixin p-m-sections-config
+	font-size: 12px
+	line-height: initial
+	font-weight: 300
+	color: #373737
+	word-spacing: initial
+	max-width: initial
+@mixin p-sections-config
+	font-size: 12px
+	line-height: 24px
+	font-weight: 300
+	color: #373737
+	word-spacing: 2px
+	max-width: 450px
+@mixin center-config
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%)
+body
+	margin: 0 auto
+	padding: 15px
+	overflow-x: hidden
+	font-family: "Asap", sans-serif
+.container
+	margin: 50px auto
+.button-get
+	@include button-config
+header
+	background: url("../images/livello-1.png") center center fixed no-repeat
+	background-size: cover
+	background-position: 0 60%
+	height: 100vh
+	margin-top: -50px
+	position: relative
+	color: $white
+	.container > nav
+		padding-left: 0
+	.row > .col-xs-12
+		text-transform: $transform
+		list-style-type: none
+		text-decoration: none
+		padding-left: 0
+		li
+			display: inline-block
+			padding: 0 50px
+		a
+			color: $white
+			font-weight: $weight
+	.slogan
+		@include center-config
+		p
+			font-weight: $weight
+			word-spacing: 5px
+	.slogan>h1
+		@include h1-config
+		word-spacing: 10px
+	.social-media
+		position: absolute
+		bottom: 0
+		left: 50%
+		transform: translate(-55%)
+		font-size: 20px
+		i
+			
+.first-section
+	padding: 50px 0
+	overflow: hidden
+	max-height: 520px
+	background: #f5f6f7
+	h4
+		@include h4-config
+		margin-bottom: 50px
+	p
+		@include p-sections-config
+	span
+		font-weight: $weight
+	.button-get
+		width: 190px
+		margin-top: 50px
+.second-section
+	padding: 80px 0
+	overflow: hidden
+	max-height: 600px
+	h4
+		@include h4-config
+		margin-bottom: 50px
+	p
+		@include p-sections-config
+	.button-get
+		width: 190px
+		margin: 50px 0
+	.pages
+		color: #373737
+		font-weight: $weight
+		font-style: italic
+	.arrows
+		font-size: 0
+	i
+		margin-right: 12px
+		margin-left: 12px
+		cursor: pointer
+		font-size: 16px
+.pseudo-gallery
+	padding: 50px 0
+	background: #f5f6f7
+	display: flex
+	justify-content: center
+	align-items: center
+	.chevrons
+		font-size: 0
+		i
+			margin-right: 10px
+			cursor: pointer
+			font-size: 15px
+			margin-bottom: 5px
+	.logon
+		height: 244px
+		display: flex
+		justify-content: center
+		align-items: center
+		.logo-h
+			img
+				margin-bottom: 10px
+			h5
+				font-weight: $weight
+				text-transform: $transform
+				word-spacing: 5px
+				margin-bottom: 20px
+			p
+				font-size: 10px
+				padding: 0 6vw
+				font-weight: bolder
+				line-height: 12px
+	.gallery-photo
+		width: 100%
+.subscribe
+	background: url("../images/livello-3.png") center center fixed no-repeat
+	background-size: cover
+	background-position: 0 60%
+	height: 75vh
+	position: relative
+	padding: 60px 0
+	.subscribe-font
+		@include center-config
+		h1
+			@include h1-config
+			margin-bottom: 50px
+		.form-group
+			position: relative
+			display: inline-block
+			width: 200px
+			button,
+			input
+				height: 60px
+		button
+			position: absolute
+			top: 0
+			right: 0
+		i
+			width: 25px
+.download-section
+	padding: 50px 0
+	text-transform: $transform
+	background: #f5f6f7
+	h4
+		font-weight: $weight
+	p
+		color: #373737
+		font-weight: 500
+		font-size: 12px
+		line-height: 24px
+		max-width: 650px
+		display: inline-block
+	.button-download
+		width: 230px
+		height: 50px
+		position: relative
+		border: none
+		background-color: #1abc9c
+		color: $white
+		text-align: left
+		text-transform: $transform
+		font-weight: 700
+		letter-spacing: 3px
+		margin: 50px 10px 50px 0
+		padding: 0 20px
+		transition: .5s
+		&:hover
+			transform: scale(1.2)
+		i
+			position: absolute
+			top: 0
+			right: 0
+			width: 55px
+			height: 50px
+			background-color: #16a085
+			margin-right: 0
+			text-align: $align
+			line-height: 50px
+			font-size: 25px
+footer
+	h5
+		color: #000
+		margin-top: 15px
+	a
+		color: #000
+		&:hover
+			color: #000
+			text-decoration: none
+	.logo-align
+		text-align: right
+		display: flex
+		justify-content: flex-end
+		align-items: center
+		height: 86.2px
+@media (max-width: 575px)
+	header
+		.container > nav
+			padding-left: 15px
+		.row > .col-xs-12
+			text-align: left
+			li
+				display: block
+				padding: initial
+				margin-bottom: 10px
+				margin-left: -50px
+				img
+					float: right
+					display: inline-block
+					margin-top: -50px
+		.slogan
+			h1
+				font-size: 23px
+@media (min-width: 576px) and (max-width: 991px)
+	header
+		.row > .col-xs-12
+			position: absolute
+			left: 50%
+			top: 3%
+			transform: translate(-50%)
+			li
+				padding: 0 25px
+@media (max-width: 991px)
+	.container
+		text-align: $align
+	header
+		text-align: $align
+		.slogan
+			h1
+				word-spacing: initial
+				padding: 0 7vw
+
+			p
+				word-spacing: initial
+	.second-section
+		max-height: 100%
+		width: 100%
+		img
+			width: 100%
+		h4
+			@include h4-m-config
+			margin-top: 50px
+		p
+			@include p-m-sections-config
+			padding: 0 7vw
+	.first-section
+		img
+			display: none
+		h4
+			@include h4-m-config
+			padding: 0 10vw
+		p
+			@include p-m-sections-config
+			padding: 0 7vw
+	.pseudo-gallery
+		.chevrons
+			i
+				display: none
+		.img-row
+				margin-bottom: 15px
+	footer
+		.logo-align
+			text-align: center
+			justify-content: center

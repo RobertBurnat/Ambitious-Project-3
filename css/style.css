@@ -1,0 +1,328 @@
+body {
+  margin: 0 auto;
+  padding: 15px;
+  overflow-x: hidden;
+  font-family: "Asap", sans-serif; }
+
+.container {
+  margin: 50px auto; }
+
+.button-get {
+  height: 50px;
+  width: 155px;
+  background-color: #16a085;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 20px;
+  transition: .5s;
+  color: #fff; }
+  .button-get:hover {
+    transform: scale(1.2); }
+
+header {
+  background: url("../images/livello-1.png") center center fixed no-repeat;
+  background-size: cover;
+  background-position: 0 60%;
+  height: 100vh;
+  margin-top: -50px;
+  position: relative;
+  color: #fff; }
+  header .container > nav {
+    padding-left: 0; }
+  header .row > .col-xs-12 {
+    text-transform: uppercase;
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 0; }
+    header .row > .col-xs-12 li {
+      display: inline-block;
+      padding: 0 50px; }
+    header .row > .col-xs-12 a {
+      color: #fff;
+      font-weight: 700; }
+  header .slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    header .slogan p {
+      font-weight: 700;
+      word-spacing: 5px; }
+  header .slogan > h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    word-spacing: 10px; }
+  header .social-media {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-55%);
+    font-size: 20px; }
+
+.first-section {
+  padding: 50px 0;
+  overflow: hidden;
+  max-height: 520px;
+  background: #f5f6f7; }
+  .first-section h4 {
+    color: #16a085;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    max-width: 375px;
+    margin-bottom: 50px; }
+  .first-section p {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #373737;
+    word-spacing: 2px;
+    max-width: 450px; }
+  .first-section span {
+    font-weight: 700; }
+  .first-section .button-get {
+    width: 190px;
+    margin-top: 50px; }
+
+.second-section {
+  padding: 80px 0;
+  overflow: hidden;
+  max-height: 600px; }
+  .second-section h4 {
+    color: #16a085;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    max-width: 375px;
+    margin-bottom: 50px; }
+  .second-section p {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #373737;
+    word-spacing: 2px;
+    max-width: 450px; }
+  .second-section .button-get {
+    width: 190px;
+    margin: 50px 0; }
+  .second-section .pages {
+    color: #373737;
+    font-weight: 700;
+    font-style: italic; }
+  .second-section .arrows {
+    font-size: 0; }
+  .second-section i {
+    margin-right: 12px;
+    margin-left: 12px;
+    cursor: pointer;
+    font-size: 16px; }
+
+.pseudo-gallery {
+  padding: 50px 0;
+  background: #f5f6f7;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .pseudo-gallery .chevrons {
+    font-size: 0; }
+    .pseudo-gallery .chevrons i {
+      margin-right: 10px;
+      cursor: pointer;
+      font-size: 15px;
+      margin-bottom: 5px; }
+  .pseudo-gallery .logon {
+    height: 244px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .pseudo-gallery .logon .logo-h img {
+      margin-bottom: 10px; }
+    .pseudo-gallery .logon .logo-h h5 {
+      font-weight: 700;
+      text-transform: uppercase;
+      word-spacing: 5px;
+      margin-bottom: 20px; }
+    .pseudo-gallery .logon .logo-h p {
+      font-size: 10px;
+      padding: 0 6vw;
+      font-weight: bolder;
+      line-height: 12px; }
+  .pseudo-gallery .gallery-photo {
+    width: 100%; }
+
+.subscribe {
+  background: url("../images/livello-3.png") center center fixed no-repeat;
+  background-size: cover;
+  background-position: 0 60%;
+  height: 75vh;
+  position: relative;
+  padding: 60px 0; }
+  .subscribe .subscribe-font {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .subscribe .subscribe-font h1 {
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 700;
+      margin-bottom: 50px; }
+    .subscribe .subscribe-font .form-group {
+      position: relative;
+      display: inline-block;
+      width: 200px; }
+      .subscribe .subscribe-font .form-group button,
+      .subscribe .subscribe-font .form-group input {
+        height: 60px; }
+    .subscribe .subscribe-font button {
+      position: absolute;
+      top: 0;
+      right: 0; }
+    .subscribe .subscribe-font i {
+      width: 25px; }
+
+.download-section {
+  padding: 50px 0;
+  text-transform: uppercase;
+  background: #f5f6f7; }
+  .download-section h4 {
+    font-weight: 700; }
+  .download-section p {
+    color: #373737;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    max-width: 650px;
+    display: inline-block; }
+  .download-section .button-download {
+    width: 230px;
+    height: 50px;
+    position: relative;
+    border: none;
+    background-color: #1abc9c;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 50px 10px 50px 0;
+    padding: 0 20px;
+    transition: .5s; }
+    .download-section .button-download:hover {
+      transform: scale(1.2); }
+    .download-section .button-download i {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 55px;
+      height: 50px;
+      background-color: #16a085;
+      margin-right: 0;
+      text-align: center;
+      line-height: 50px;
+      font-size: 25px; }
+
+footer h5 {
+  color: #000;
+  margin-top: 15px; }
+
+footer a {
+  color: #000; }
+  footer a:hover {
+    color: #000;
+    text-decoration: none; }
+
+footer .logo-align {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 86.2px; }
+
+@media (max-width: 575px) {
+  header .container > nav {
+    padding-left: 15px; }
+  header .row > .col-xs-12 {
+    text-align: left; }
+    header .row > .col-xs-12 li {
+      display: block;
+      padding: initial;
+      margin-bottom: 10px;
+      margin-left: -50px; }
+      header .row > .col-xs-12 li img {
+        float: right;
+        display: inline-block;
+        margin-top: -50px; }
+  header .slogan h1 {
+    font-size: 23px; } }
+
+@media (min-width: 576px) and (max-width: 991px) {
+  header .row > .col-xs-12 {
+    position: absolute;
+    left: 50%;
+    top: 3%;
+    transform: translate(-50%); }
+    header .row > .col-xs-12 li {
+      padding: 0 25px; } }
+
+@media (max-width: 991px) {
+  .container {
+    text-align: center; }
+  header {
+    text-align: center; }
+    header .slogan h1 {
+      word-spacing: initial;
+      padding: 0 7vw; }
+    header .slogan p {
+      word-spacing: initial; }
+  .second-section {
+    max-height: 100%;
+    width: 100%; }
+    .second-section img {
+      width: 100%; }
+    .second-section h4 {
+      color: #16a085;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: initial;
+      word-spacing: initial;
+      max-width: initial;
+      margin-top: 50px; }
+    .second-section p {
+      font-size: 12px;
+      line-height: initial;
+      font-weight: 300;
+      color: #373737;
+      word-spacing: initial;
+      max-width: initial;
+      padding: 0 7vw; }
+  .first-section img {
+    display: none; }
+  .first-section h4 {
+    color: #16a085;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: initial;
+    word-spacing: initial;
+    max-width: initial;
+    padding: 0 10vw; }
+  .first-section p {
+    font-size: 12px;
+    line-height: initial;
+    font-weight: 300;
+    color: #373737;
+    word-spacing: initial;
+    max-width: initial;
+    padding: 0 7vw; }
+  .pseudo-gallery .chevrons i {
+    display: none; }
+  .pseudo-gallery .img-row {
+    margin-bottom: 15px; }
+  footer .logo-align {
+    text-align: center;
+    justify-content: center; } }
+
+/*# sourceMappingURL=style.css.map */

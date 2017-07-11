@@ -1,0 +1,28 @@
+{
+  "name": "kodilla-ambitious-project-3",
+  "version": "1.0.0",
+  "description": "Ambitious Project #3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "grunt",
+    "sass",
+    "html",
+    "bootstrap"
+  ],
+  "author": "Robert Burnat",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
